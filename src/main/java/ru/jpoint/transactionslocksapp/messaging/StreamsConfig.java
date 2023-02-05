@@ -17,11 +17,11 @@ public class StreamsConfig {
 
     private final SpeakerMessageProcessor messageProcessor;
 
-    @Bean
-    Consumer<Likes> likesConsumer() {
-        return (value) -> {
-            log.info("Consumer Received : " + value);
-            messageProcessor.processOneMessage(value);
-        };
-    }
+//    @Bean
+//    Consumer<Likes> likesConsumer() {
+//        return (value) -> {
+//            log.info("Consumer Received : " + value);
+//            messageProcessor.processOneMessage(value);
+//        };
+//    }
 }

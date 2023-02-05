@@ -257,7 +257,7 @@ services:
     networks:
       - jpoint_network
     hostname: postgres
-    container_name: postgres
+    container_name: postgres1
     ports:
       - 5432:5432
     environment:
